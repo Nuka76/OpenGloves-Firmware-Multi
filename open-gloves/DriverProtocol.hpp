@@ -2,11 +2,16 @@
 
 struct EncodedInput {
   enum Type : char {
-    THUMB = 'A',
-    INDEX = 'B',
-    MIDDLE = 'C',
-    RING = 'D',
-    PINKY = 'E',
+    THUMB = 'AAA',
+    THUMB1 = 'AAC',
+    INDEX = 'BAB',
+    INDEX1 = 'BAC',
+    MIDDLE = 'CAB',
+    MIDDLE1 = 'CAC',
+    RING = 'DAB',
+    RING1 = 'DAC',
+    PINKY = 'EAB',
+    PINKY1 = 'EAC',
     JOY_X = 'F',
     JOY_Y = 'G',
     JOY_BTN = 'H',
@@ -37,11 +42,6 @@ struct EncodedInput {
 
 struct DecodedOuput {
   enum Type : char {
-    FFB_THUMB = 'A',
-    FFB_INDEX = 'B',
-    FFB_MIDDLE = 'C',
-    FFB_RING = 'D',
-    FFB_PINKY = 'E',
     HAPTIC_FREQ = 'F',
     HAPTIC_DURATION = 'G',
     HAPTIC_AMPLITUDE = 'H'
