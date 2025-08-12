@@ -131,16 +131,11 @@
   #define PIN_A_BTN           27
   #define PIN_B_BTN           14
   #define PIN_MENU_BTN        27
-  #define PIN_TRIG_BTN        12 //unused if gesture set
-  #define PIN_GRAB_BTN        13 //unused if gesture set
-  #define PIN_PNCH_BTN        23 //unused if gesture set
-  #define PIN_CALIB           12 //button for recalibration
-  #define PIN_LED             2
-  #define PIN_HAPTIC          1
-  #define PIN_PINKY_SPLAY     1
-  #define PIN_RING_SPLAY      1
-  #define PIN_MIDDLE_SPLAY    1
-  #define PIN_INDEX_SPLAY     1
+  #define PIN_CALIB           8 //button for recalibration
+  #define PIN_PINKY_SPLAY     12
+  #define PIN_RING_SPLAY      13
+  #define PIN_MIDDLE_SPLAY    23
+  #define PIN_INDEX_SPLAY     2
   #define PIN_THUMB_SPLAY     1
 #endif
 
