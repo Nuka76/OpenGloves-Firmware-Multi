@@ -113,6 +113,7 @@
 #define MAX_OUTPUT_COUNT     (HAPTIC_COUNT + FORCE_FEEDBACK_COUNT)
 
 //PINS CONFIGURATION
+#if defined(ESP32)
   //(This configuration is for ESP32 DOIT V1 so make sure to change if you're on another board)
   #define PIN_PINKY           36
   #define PIN_PINKY_1         5  //Testing for multicurl
